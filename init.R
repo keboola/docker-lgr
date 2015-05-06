@@ -4,5 +4,4 @@ install.packages(c('corrgram', 'data.table', 'gbm', 'ggplot2', 'jsonlite', 'leap
 library('devtools')
 
 # install the R application
-install_github('keboola/r-luckyguess', ref = "master")
-library('keboola.r.luckyguess')
+install_github('keboola/lgr-docker-application', ref = "master")
