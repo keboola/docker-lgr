@@ -13,11 +13,11 @@ RUN find /usr/share/doc/ -name R* -exec mkdir '{}/html' \;
 
 WORKDIR /home
 
-# Initialize 
+# Initialize the LGR runner 1
 RUN git clone https://github.com/keboola/docker-lgr.git ./
 
 # Install some commonly used R packages and the R application
-RUN Rscript ./install.R
+RUN Rscript ./init.R
 
 # Run the application
 ENTRYPOINT Rscript ./main.R
