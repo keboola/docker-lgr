@@ -5,4 +5,4 @@ install.packages(c('devtools'), repos = 'http://cran.us.r-project.org'
 library('devtools')
 
 # install the R application
-install_github('keboola/lgr-docker-application', ref = "master")
+#install_github('keboola/lgr-docker-application', ref = "master")

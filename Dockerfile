@@ -17,7 +17,7 @@ WORKDIR /home
 RUN git clone https://github.com/keboola/docker-lgr.git ./
 
 # Install some commonly used R packages and the R application
-RUN Rscript ./init.R
+RUN Rscript ./install.R
 
 # Run the application
 ENTRYPOINT Rscript ./main.R
