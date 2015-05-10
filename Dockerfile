@@ -6,6 +6,7 @@ RUN yum -y install \
 	libcurl \
 	libcurl-devel \
 	libxml2-devel \
+	libgit2-dev \
 	R \
 	git
 
