@@ -5,6 +5,7 @@ MAINTAINER Ondrej Popelka <ondrej.popelka@keboola.com>
 RUN yum -y install \
 	libcurl \
 	libcurl-devel \
+	libxml2-devel \
 	R \
 	git
 
