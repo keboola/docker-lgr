@@ -1,6 +1,6 @@
-library('keboola.r.luckyguess')
+suppressMessages(library('keboola.r.luckyguess', quiet = TRUE))
 
 # run it
 app <- LGApplication$new()
-app$readConfig()
-app$run()
+ret <- app$readConfig()
+ret <- app$run()
