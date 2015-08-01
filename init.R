@@ -12,3 +12,6 @@ install_github('keboola/provisioning-r-client', ref = "master")
 install_github('keboola/r-application', ref = "master")
 install_github('keboola/r-docker-application', ref = "master")
 install_github('keboola/r-luckyguess', ref = "master")
+
+# install commonly used packages from github
+install_github('keboola/AnomalyDetection', ref = "master")
