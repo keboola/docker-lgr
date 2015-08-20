@@ -10,4 +10,4 @@ RUN git clone https://github.com/keboola/docker-lgr.git ./
 RUN Rscript ./init.R
 
 # Run the application
-ENTRYPOINT Rscript ./main.R /data/
+ENTRYPOINT Rscript --max-mem-size=2G ./main.R /data/ 
