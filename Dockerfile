@@ -1,4 +1,4 @@
-FROM keboola/docker-base-r
+FROM quay.io/keboola/docker-base-r
 MAINTAINER Ondrej Popelka <ondrej.popelka@keboola.com>
 
 WORKDIR /home
