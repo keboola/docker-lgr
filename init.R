@@ -9,9 +9,9 @@ library('devtools')
 # install the R application
 install_github('keboola/redshift-r-client', ref = "master")
 install_github('keboola/provisioning-r-client', ref = "master")
-install_github('keboola/r-application', ref = "master")
-install_github('keboola/r-docker-application', ref = "master")
-install_github('keboola/r-luckyguess', ref = "master")
+install_github('keboola/r-application', ref = "1.0.1")
+install_github('keboola/r-docker-application', ref = "1.0.0")
+install_github('keboola/r-luckyguess', ref = "1.0.1")
 
 # install commonly used packages from github
 install_github('keboola/AnomalyDetection', ref = "master")
