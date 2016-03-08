@@ -7,7 +7,7 @@ install.packages(c('corrgram', 'data.table', 'gbm', 'ggplot2', 'leaps', 'plyr', 
 library('devtools')
 
 # install the R application
-install_github('keboola/redshift-r-client', ref = "1.0.1")
+install_github('keboola/redshift-r-client', ref = "1.0.2")
 install_github('keboola/provisioning-r-client', ref = "1.0.1")
 install_github('keboola/r-application', ref = "1.0.1")
 install_github('keboola/r-docker-application', ref = "1.0.0")
